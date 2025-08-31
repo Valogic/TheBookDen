@@ -1,0 +1,54 @@
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-image {
+    margin-left: 25px;
+    width: 430px;
+    height: 154px;
+}
+
+.right-footer {
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    position: relative;
+    width: 516px;
+}
+
+.footer-input input{
+    border-radius: 10px;
+    border-color: #162351;
+    border-style: solid;
+    border-width: 3px;
+    background-color: #F5EEE1;
+    width: 299px;
+    height: 27px;
+    position: absolute;
+    right: 0;
+    top: -70px;
+}
+
+.footer-socials {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 172px;
+    height: 20px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.footer-nav {
+    width: 516px;
+    position: absolute;
+    top: 25px;
+}
+
+.footer-nav nav {
+    display: flex;
+    flex-direction: row;
+}

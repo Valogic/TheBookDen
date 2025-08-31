@@ -1,0 +1,113 @@
+.main {
+    width: 1180px;
+    margin: 0 auto;
+}
+
+.sub-header {
+    margin: 0 auto;
+    width: 1180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.second-sub-header {
+    width: 1180px;
+    height: 648px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+
+.sub-header-left {
+    display: flex;
+    flex-direction: column;
+    width: 442px;
+    height: 464px;
+}
+
+.sub-header-left p, .sub-header-right2 {
+    font-size: 36px;
+    font-family: Copse;
+    font-weight: 400;
+    color: #475176;
+}
+
+.sub-header-right {
+    width: 630px;
+    height: 400px;
+}
+
+.sub-header-right img, .sub-header-left2 img {
+    border-radius: 60px;
+}
+
+/* OUR TEAM SECTION */
+
+.section {
+    width: 1180px;
+    height: 1399px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-header {
+    width: 1120px;
+    height: 100px;
+    border-radius: 20px;
+    background-color: #F6C9B1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #162351;
+    font-weight: 600;
+    font-family: Cormorant Garamond;
+    font-size: 60px;
+}
+
+.members {
+    width: 1110px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.member {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 332.5px;
+    height: 910px;
+}
+
+.member-image {
+    width: 340px;
+    height: 284px;
+    border-radius: 30px;
+}
+
+.member-name {
+    color: #162351;
+    font-family: Cormorant Garamond;
+    font-weight: 600;
+    font-size: 60px;
+}
+
+.member-role {
+    color: #162351;
+    font-family: Cormorant Garamond;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.about-member {
+    color: #475176;
+    font-family: Copse;
+    font-weight: 400;
+    font-size: 32px;
+    text-align: center;
+}

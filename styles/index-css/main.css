@@ -1,0 +1,200 @@
+main {
+    padding-top: 100px;
+    width: 1180px;
+    margin: 0 auto;
+}
+
+.second-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1180px;
+}
+
+.second-header-left {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+}
+
+.second-header-left h1 {
+    color: #162351;
+    font-family: Cormorant Garamond;
+    font-size: 48px;
+}
+
+.second-header-left p {
+    font-family: Copse;
+    font-size: 36px;
+}
+
+.second-header-left button {
+    background-color: #E55B14;
+    color: white;
+    height: 86px;
+    width: 280px;
+    font-size: 48px;
+    border-radius: 50px;
+    border-style: none;
+    font-family: Cormorant Garamond;
+}
+
+.second-header-right {
+    margin-left: auto;
+    color: #fff;
+    width: 450px;
+    margin-right: 170px;
+}
+
+.image-round {
+    border-radius: 156px;
+}
+
+.feature-books-header {
+    margin-top: 80px;
+    background-color: #E55B1454;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    border-radius: 20px;
+    font-size: 60px;
+    font-family: Cormorant Garamond;
+    margin-bottom: 80px;
+}
+
+.feature-books-fields {
+    display: flex;
+    flex-direction: row ;
+}
+
+.feature-books-left {
+    margin-right: auto;
+    width: 450px;
+}
+
+.feature-books-right {
+    margin-left: auto;
+    width: 450px;
+}
+
+.feature-books-right h1 {
+    color: #162351;
+    font-family: Cormorant Garamond;
+    font-size: 48px;
+}
+
+.feature-books-right p {
+    font-family: Cormorant Garamondse;
+    font-size: 36px;
+}
+
+.feature-books-right button {
+    background-color: #E55B14;
+    color: white;
+    height: 96px;
+    width: 567px;
+    font-size: 48px;
+    border-radius: 30px;
+    border-style: none;
+    font-family: Cormorant Garamond;
+}
+
+.padding {
+    padding-top: 80px;
+}
+
+.feature-books-left button {
+    background-color: #E55B14;
+    color: white;
+    height: 96px;
+    width: 567px;
+    font-size: 48px;
+    border-radius: 30px;
+    border-style: none;
+    font-family: Cormorant Garamond;
+}
+
+.feature-books-left h1 {
+    color: #162351;
+    font-family: Cormorant Garamond;
+    font-size: 48px;
+}
+
+.feature-books-left p {
+    font-family: Cormorant Garamondse;
+    font-size: 36px;
+}
+
+.feature-image {
+    height: 595;
+    width: 410;
+}
+
+.reviews-section {
+    display: flex;
+    flex-direction: row;
+    padding-left: 35px;
+    padding-right: 35px;
+    gap: 60px;
+    width: 1180px;
+}
+
+.reviews {
+    display: flex;
+    flex-direction: column;
+    width: 517px;
+    height: 910px;
+    align-items: center;
+    border-radius: 20px;
+    border-color: black;
+    border-style: solid;
+    border-width: 5px;
+}
+
+.reviews .text-review {
+    margin-top: 0;
+    width: 358px;
+    height: 381px;
+    max-height: 381px;;
+    font-size: 32px;
+    font-weight: 400;
+    font-family: Copse;
+}
+
+.reviews img {
+    width: 367px;
+    margin-top: 40px;
+    border-radius: 30px;
+    border-color: none;
+}
+
+.reviews .text-name {
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.star img {
+    margin-top: 0;
+    width: 42px;
+    height: 42px;
+}
+
+.leave-review-button {
+    margin-top: 80px;
+    background-color: #E55B14;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    border-radius: 20px;
+    font-size: 60px;
+    font-family: Cormorant Garamond;
+    margin-bottom: 80px;
+    cursor: pointer;
+}
+
+.checked {
+    color: #FFC700;
+}

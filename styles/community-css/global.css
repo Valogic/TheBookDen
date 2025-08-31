@@ -1,0 +1,30 @@
+body {
+    background-color: #F5EEE1;
+    color: #475176;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #162351;
+}
+
+h1 {
+    font-size: 64px;
+    font-family: Cormorant Garamond;
+    color: #162351;
+    font-weight: semibold;
+}
+
+h2 {
+    font-size: 60px;
+    font-family: Cormorant Garamond;
+    color: #162351;
+    font-weight: semibold;
+}
+
+h3 {
+    font-size: 48px;
+    font-family: Copse;
+    color: #162351;
+}
